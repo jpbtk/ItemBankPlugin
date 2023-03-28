@@ -1,0 +1,7 @@
+name: ItemBank
+version: '${project.version}'
+main: san.kuroinu.itembank.ItemBank
+api-version: 1.19
+commands:
+    ib:
+        description: "アイテムバンクを開きます"

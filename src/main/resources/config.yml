@@ -1,0 +1,7 @@
+itemBankList:
+  - COBBLESTONE
+  - COBBLED_DEEPSLATE
+db:
+  url: "jdbc:mysql://localhost/plugin_db?useSSL=false"
+  user: "root"
+  password: "password"
