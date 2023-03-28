@@ -82,8 +82,7 @@ public class IB implements CommandExecutor {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-        if (result != null) {
-                result.next();
+        if (result.next()) {
                 int count = result.getInt("count");
             ps.close();
                 result.close();
